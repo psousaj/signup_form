@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+/* Cores:
+Botões: #7E56D8
+Background Body: #D3D0DF
+Background Cadastro: #FFFFFF
+Background Login: #F3F5F9 
+Títulos: #7E56D8
+Subtítulos: #121B2A
+Label/Rótulos dos campos: #BCBCCE
+Borda: #BCBCCE */
+
+body{
+    background-color: #D3D0DF;
+}
+
+.flex {
+    display: flex;
+}
+
+.title {
+    color: #7E56D8;
+    text-align: center;
+    font-size: 18px;
+} .subtitle {
+    color: #121B2A;
+    text-align: center;
+    padding-top: 5px;
+} 
+
+.container {
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    margin: 7% auto;
+}
+
+.cadastro {
+    max-width: 50%;
+    height: 30rem;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+}
+.login {
+    max-width: 50%;
+    height: 30rem;
+    background-color: #F3F5F9;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+}
+
+
+.signup-form{
+    flex-direction: column;
+    padding: 1.5em;
+} form div+div {
+    padding-top: 1em;
+} form .button button {
+    background-color: #7E56D8;
+    color: #FFFFFF;
+    width: 20em;
+    height: 3em;
+    justify-self: center;
+} input{
+    border: solid 1px #BCBCCE;
+    border-radius: 1em;
+    width: 20em;
+    height: 2em;
+    text-align: justify;
+    padding: 0.5em 1em;
+} label {
+    color: #BCBCCE;
+}
