@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Inter', 'sans-serif';
+    box-sizing: border-box;
 }
 
 /* Cores:
@@ -41,7 +42,7 @@ body{
 
 .cadastro {
     max-width: 50%;
-    height: 30rem;
+    height: 650px;
     background-color: #FFFFFF;
     flex-direction: column;
     align-items: center;
@@ -50,7 +51,7 @@ body{
 }
 .login {
     max-width: 50%;
-    height: 30rem;
+    height: 650px;
     background-color: #F3F5F9;
     flex-direction: column;
     align-items: center;
@@ -58,17 +59,19 @@ body{
     padding: 100px 50px;
 }
 
-.signup-form{
+.signup-form,
+.login-form {
     flex-direction: column;
     padding: 1.5em;
-} form div+div {
+} form div + div {
     padding-top: 1em;
-} form .button button {
+}  form .button button {
     background-color: #7E56D8;
     color: #FFFFFF;
     width: 20em;
     height: 3em;
-    justify-self: center;
+    border-radius: 7px; 
+    margin-top: 10px;  
 } input{
     border: solid 1px #BCBCCE;
     border-radius: 1em;
@@ -80,9 +83,11 @@ body{
     color: #BCBCCE;
 }
 
+form {
+    margin-top: 25px;
+}
+
 .remember label, input[type="checkbox"]{
-    padding: 0;
-    margin: 0;
     text-align: left;
     width: 1em;
     height: 1em;
