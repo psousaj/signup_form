@@ -22,11 +22,11 @@
                 <form action="#" method="post">
                     <div class="name-field">
                         <label for="name-field">Digite seu nome</label><br>
-                        <input type="text" id="name-field">
+                        <input type="text" placeholder="Nome" id="name-field">
                     </div>
                     <div class="last-name-field">
                         <label for="last-name-field">Digite seu sobrenome</label><br>
-                        <input type="text" id="last-name-field">
+                        <input type="text" placeholder="Sobrenome" id="last-name-field">
                     </div>
                     <div class="birth-field">
                         <label for="birth-field">Digite sua data de nascimento</label><br>
@@ -34,11 +34,11 @@
                     </div>
                     <div class="mail-field">
                         <label for="mail-field">Digite seu e-mail</label><br>
-                        <input type="text" id="mail-field">
+                        <input type="text" placeholder="email@email.com" id="mail-field" pattern="/^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$/i" required="required">
                     </div>
                     <div class="pass-field">
                         <label for="pass-field">Digite uma senha</label><br>
-                        <input type="password" id="pass-field">
+                        <input type="password" placeholder="6 a 8 caracteres" required="required" pattern="[0-9a-zA-Z$*&@#]{6,8}$/" id="pass-field">
                     </div>
                     <div class="button">
                         <button type="submit"><strong>Cadastrar</strong></button>
@@ -53,11 +53,11 @@
                 <form action="#" method="post">
                     <div class="mail-field">
                         <label for="mail-field">Digite seu email</label><br>
-                        <input type="text" id="mail-field">
+                        <input type="text" placeholder="Email" required="required" id="mail-field">
                     </div>
                     <div class="pass-field">
                         <label for="pass-field">Digite sua senha</label><br>
-                        <input type="password" name="pass-field" id="pass-field">
+                        <input type="password" placeholder="Senha" required="required" name="pass-field" id="pass-field">
                     </div>
                     <div class="remember">
                         <input type="checkbox" name="" id="">
